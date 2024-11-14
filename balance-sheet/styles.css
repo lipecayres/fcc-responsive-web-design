@@ -39,3 +39,27 @@ span[class~="sr-only"] {
   h1 .flex span:last-of-type {
     font-size: 1.2em;
   }
+
+  section {
+    max-width: 40rem;
+    margin: 0 auto;
+    border: 2px solid #d0d0d5;
+  }
+
+  #years {
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    color: #fff;
+    background-color: #0a0a23;
+    margin:0 -2px;
+    padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
+    z-index: 999;
+  }
+
+  #years span[class] {
+    font-weight: bold;
+    width: 4.5rem;
+    text-align: right;
+  }
